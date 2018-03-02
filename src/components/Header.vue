@@ -1,15 +1,18 @@
-</template>
-    <ul>
-        <li></li>
-    </ul>
+<template>
+    <span>
+        this is head ddd asdas
+        {{free}}
+    </span>
+    
 </template>
 
-<script type>
-export default{
-    name:'header',
-    data:function(){
+<script>
+export default  {
+    name:'Header',
+    data () {
         return {
-            nav:['Home','About','Content'],
+           
+            free:"this is node js project"
 
         }
     }
