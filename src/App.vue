@@ -7,7 +7,7 @@
 
     <router-link to="/hello/冉慕飞/29"> hello 组件</router-link>
     <router-link to="/head/profile/冉慕飞/29/腴地上虞">head组件</router-link>
-    <router-link to="/head/love">love组件</router-link>
+    <router-link to="/head/love/fujiang/wuhan city">love组件</router-link>
     
 
     <p>
