@@ -14,6 +14,10 @@
         <p>年龄：{{$route.params.old}}</p>
         <p>籍贯：{{$route.params.from}}</p>
         
+         <p>$route.path:  {{$route.path}}</p>
+
+        <p>$route.params:{{$route.params}}</p>
+        <p>$route.query:{{$route.query}}</p>
 
     </div>
     </transition>

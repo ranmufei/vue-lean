@@ -2,18 +2,18 @@
     <div>
       
         <div>
-        <el-button>默认按钮</el-button>
-        <el-button type="primary">主要按钮</el-button>
-        <el-button type="success">成功按钮</el-button>
-        <el-button type="info">信息按钮</el-button>
-        <el-button type="warning">警告按钮</el-button>
-        <el-button type="danger">危险按钮</el-button>
+        <el-button @click="print">打印路由对象</el-button>
+     
       </div>
       <span>
         this is head ddd asdas
         {{free}}
 
-
+        <p>$route.path:  {{$route.path}}</p>
+        <p>$route.params:{{$route.params}}</p>
+        <p>$route.query:{{$route.query}}</p>
+        <p>$route.hash:{{$route.hash}}</p>
+      
 
 
     </span>
@@ -32,6 +32,11 @@ export default  {
            
             free:"this is node js project"
 
+        }
+    },
+    methods:{
+        print(){
+            console.log('{{$route}} :',this.$route)
         }
     }
 }
